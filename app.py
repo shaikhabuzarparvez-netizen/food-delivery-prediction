@@ -233,13 +233,13 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.metric(
         "MAE",
-        "2.61 min"
+        "2.62 min"
     )
 
 with col2:
     st.metric(
         "RMSE",
-        "3.36 min"
+        "3.38 min"
     )
 
 with col3:
@@ -267,7 +267,7 @@ col1, col2 = st.columns(2)
 with col1:
     st.metric(
         "Test Accuracy",
-        "97.35%"
+        "96.0%"
     )
 
 with col2:
@@ -303,7 +303,7 @@ model_summary = pd.DataFrame({
     ],
     "Test Performance": [
         "MAE: 2.61 min | R²: 0.991",
-        "Accuracy: 97.35%"
+        "Accuracy: 96.0%"
     ]
 })
 
@@ -534,7 +534,7 @@ with col3:
     st.metric("ML Models", "2")
 
 with col4:
-    st.metric("Traffic Accuracy", "97.35%")
+    st.metric("Traffic Accuracy", "96.0%")
 
 
 st.divider()
